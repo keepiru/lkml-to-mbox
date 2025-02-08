@@ -95,7 +95,7 @@ if __name__ == '__main__':
         print("back for <count> messages.")
         print("for example, to import the last 1000 messages:")
         print("  $ git checkout origin/master")
-        print("  $ {sys.argv[0]} 1000")
+        print(f"  $ {sys.argv[0]} 1000")
         sys.exit(1)
 
     count = int(sys.argv[1])
